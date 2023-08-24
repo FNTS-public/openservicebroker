@@ -1,4 +1,4 @@
-FROM ghcr.io/meshcloud/unipipe-service-broker:v1.7.6
+FROM ghcr.io/fnts-public/unipipe-service-broker:latest
 
 RUN addgroup -gid 3000 osb
 RUN adduser --disabled-password --shell / --uid 1000 osb-user --gid 3000
